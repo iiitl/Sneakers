@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:snks/pages/home_page.dart';
 import 'package:snks/tools/buton.dart';
+import "package:snks/pages/splash_screen.dart";
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'SNEKKER',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: const MyHomePage(),
+      home: SplashScreen(),
     );
   }
 }
