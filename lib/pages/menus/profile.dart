@@ -40,7 +40,7 @@ class MyProfile extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      "Gaurav",
+                      "Amaan",
                       textAlign: TextAlign.left,
                       style: GoogleFonts.poppins(
                           fontWeight: FontWeight.w900,
